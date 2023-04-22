@@ -19,7 +19,7 @@ jobs:
           package_list: plasma
           release_tag: 5.27.0-LTS
           ## path to source repo
-          source_url: https://github.com/2091527886/plasma-5.25-lts-PKGBUILDs.git
+          source_url: https://github.com/2091527886/plasma-5.25-lts.git
           source_folder: plasma-5.25-lts-PKGBUILDs
           ## branch: (default: stable)
           branch: stable
