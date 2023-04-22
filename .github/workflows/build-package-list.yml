@@ -7,7 +7,7 @@ jobs:
   build-pkgs:
     runs-on: ubuntu-20.04
     steps:
-      - uses: 2091527886/manjaro-pkg-action@build_list
+      - uses: manjaro/manjaro-pkg-action@build_list
         with:
           gpg-key: ${{ secrets.CI_PRIV_KEY }}
           gpg-passphrase: ${{ secrets.CI_GPG_PASSPHRASE }}
