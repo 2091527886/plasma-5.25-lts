@@ -7,7 +7,7 @@ jobs:
   build-pkgs:
     runs-on: ubuntu-20.04
     steps:
-      - uses: manjaro/manjaro-pkg-action@build_list
+      - uses: 2091527886/2091527886-pkg-action@build_list
         with:
           gpg-key: ${{ secrets.CI_PRIV_KEY }}
           gpg-passphrase: ${{ secrets.CI_GPG_PASSPHRASE }}
@@ -17,9 +17,9 @@ jobs:
         
 ######### EDIT:
           package_list: plasma
-          release_tag: 5.24.7-LTS
+          release_tag: 5.27.0-LTS
           ## path to source repo
-          source_url: https://github.com/2091527886/plasma-5.24-lts-PKGBUILDs.git
+          source_url: https://github.com/2091527886/plasma-5.25-lts-PKGBUILDs.git
           source_folder: plasma-5.24-lts-PKGBUILDs
           ## branch: (default: stable)
           branch: stable
