@@ -30,7 +30,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
       - id: image-build
-        uses: manjaro/manjaro-iso-action@feat/custom-repos
+        uses: 2091527886/manjaro-iso-action@feat/custom-repos
         with:
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
